@@ -358,7 +358,7 @@ select {
 
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1800px){
   .control.prev{
     left: 43%;
   }
