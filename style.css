@@ -307,13 +307,103 @@ select {
   margin-top: 250px;
 }
 
-.control.prev{
-  left: 45%;
+@media (min-width: 1800px){
+  .control.prev{
+    left: 45%;
+  }
+  
+  .control.next{
+    right: 10em;
+  }
+
+  .slider-container {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .control2.prev2 {
+    left: 12%;
+  }
+  
+  .control2.next2 {
+    right: 12%;
+  }
+
+  .hospedagem-card{
+    width: 300px;
+    height: 180px;
+    transition: 300ms;
+  }
+
+  .card-ofertas{
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 260px;
+    height: 260px;
+    transition: all linear 200ms;
+    color: #FFF;
+  }
+
+  .titulo-ofertas{
+    margin-bottom: 50px;
+  }
+
 }
 
-.control.next{
-  left: 82%;
+@media (max-width: 1440px){
+  .control.prev{
+    left: 43%;
+  }
+  
+  .control.next{
+    right: 0;
+  }
+
+  .slider-container {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .control2.prev2 {
+    left: 6%;
+  }
+  
+  .control2.next2 {
+    right: 6%;
+  }
+
+  .hospedagem-card{
+    width: 260px;
+    height: 180px;
+    transition: 300ms;
+  }
+
+  .card-ofertas{
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 230px;
+    height: 230px;
+    transition: all linear 200ms;
+    color: #FFF;
+  }
 }
+
 .prev:hover{
   color: #ff581b;
  }
@@ -435,9 +525,7 @@ select {
   padding-top: 50px;
 }
 
-.titulo-ofertas{
-  margin-bottom: 50px;
-}
+
 
 .ofertas i > img{
   width: 40px;
@@ -468,19 +556,7 @@ select {
   justify-content: center;
 }
 
-.card-ofertas{
-  overflow: hidden;
-  border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-  width: 260px;
-  height: 260px;
-  transition: all linear 200ms;
-  color: #FFF;
-}
+
 
 .card-ofertas:hover{
   transform: scale(1.05);
@@ -577,12 +653,7 @@ select {
   display: flex;
   gap: 20px;
   align-items: center;
-}
-
-.hospedagem-card{
-  width: 300px;
-  height: 180px;
-  transition: 300ms;
+  justify-content: center;
 }
 
 .hospedagem-card:hover{
@@ -637,13 +708,7 @@ select {
   color: #334456f3;
 }
 
-.slider-container {
-  width: 1200px;
-  height: 500px;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
-}
+
 
 .slider {
   display: flex;
@@ -727,14 +792,6 @@ select {
   transition: 200ms;
   font-size: 30px;
   padding: 0 15px;
-}
-
-.control2.prev2 {
-  left: 12%;
-}
-
-.control2.next2 {
-  right: 12%;
 }
 
 .control2:hover {
